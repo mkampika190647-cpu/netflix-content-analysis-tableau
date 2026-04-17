@@ -1,2 +1,10 @@
-# netflix-dashboard
-Netflix data visualization dashboard using Tableau
+# Netflix Data Visualization Dashboard
+
+Interactive dashboard analyzing Netflix movies and TV shows.
+
+## Tools
+- Tableau
+
+## File
+- Netflix Data Visualization Dashboard.twbx
+- dashboard.jpg
