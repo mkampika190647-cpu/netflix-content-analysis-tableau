@@ -7,4 +7,4 @@ Interactive dashboard analyzing Netflix movies and TV shows.
 
 ## File
 - Netflix Data Visualization Dashboard.twbx
-- dashboard.jpg
+![Dashboard](dashboard.png)
