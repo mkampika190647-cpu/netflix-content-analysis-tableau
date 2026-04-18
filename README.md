@@ -1,29 +1,32 @@
-# Netflix Data Visualization Dashboard
+# Netflix Content Strategy Analysis Dashboard
+> **Interactive Data Visualization and Market Insights using Tableau**
 
-## 📊 Overview
-This project presents an interactive dashboard analyzing Netflix movies and TV shows dataset. The goal is to explore trends, content distribution, and key patterns using data visualization techniques.
+โปรเจกต์สร้างระบบแดชบอร์ดอัจฉริยะเพื่อวิเคราะห์ฐานข้อมูลคอนเทนต์ของ Netflix ทั่วโลก โดยเน้นการดึงข้อมูลเชิงลึก (Insights) ด้านประเภทคอนเทนต์, ประเทศที่ผลิต และแนวโน้มการเติบโตของรายการ เพื่อสนับสนุนการวางแผนกลยุทธ์ด้านเนื้อหา
 
-## 🛠 Tools
-- Tableau
-- Excel
+## 📌 บทสรุปโครงการ (Project Overview)
+* **วัตถุประสงค์ (Objective):** เพื่อออกแบบแดชบอร์ดที่ช่วยให้ผู้บริหารหรือนักวิเคราะห์ข้อมูลเห็นภาพรวมความหลากหลายของคอนเทนต์ และเข้าใจพฤติกรรมการผลิตรายการในแต่ละภูมิภาค
+* **ปัญหา (Problem):** ข้อมูลคอนเทนต์มีปริมาณมหาศาลและมีความซับซ้อน (Big Data) การสรุปผลด้วยตารางแบบเดิมทำให้ยากต่อการมองเห็นแนวโน้มตลาดและการเปรียบเทียบระหว่างสถาบัน/ประเทศ
+* **ข้อมูล (Data):** ชุดข้อมูลรายการทีวีและภาพยนตร์บน Netflix (Netflix Movies and TV Shows Dataset)
 
-## 🔍 Features
-- Genre distribution analysis
-- Content rating breakdown
-- Country-based content distribution
-- Release year trends
+## 🛠️ เทคนิคและเครื่องมือ (Tech Stack)
+* **Tools:** `Tableau Desktop / Public`
+* **Features Used:**
+    * **Interactive Filters:** ระบบกรองข้อมูลตามประเภท (Genre), ปีที่เข้าฉาย (Release Year) และเรตติ้ง (Rating)
+    * **Geospatial Analysis:** แผนที่แสดงความหนาแน่นของการผลิตคอนเทนต์แบ่งตามประเทศ
+    * **Time Series Visualization:** กราฟเส้นแสดงอัตราการเพิ่มขึ้นของคอนเทนต์ในแต่ละปี
+    * **Key Performance Indicators (KPIs):** สรุปตัวเลขสำคัญ เช่น จำนวนรายการทั้งหมดแบ่งตามประเภท (Movies vs TV Shows)
 
-## 📈 Key Insights
-- Most content is concentrated in a few dominant genres
-- TV-MA is the most common rating category
-- Content production has increased significantly over time
-- The United States contributes the largest share of content
+## 📊 ส่วนประกอบของแดชบอร์ด (Dashboard Components)
+1. **Content Distribution:** แผนภูมิวงกลมแสดงสัดส่วนระหว่างภาพยนตร์และซีรีส์ เพื่อวิเคราะห์ทิศทางหลักของแพลตฟอร์ม
+2. **Global Production Map:** การใช้สี (Color Encoding) เพื่อระบุว่าประเทศใดเป็นผู้ผลิตหลัก (เช่น สหรัฐอเมริกา, อินเดีย, สหราชอาณาจักร)
+3. **Trend Analysis:** วิเคราะห์ปีที่มีการนำคอนเทนต์เข้าสู่แพลตฟอร์มมากที่สุด เพื่อดูความเร็วในการขยายตัวของห้องสมุดวิดีโอ
+4. **Rating Overview:** การจำแนกกลุ่มผู้ชมตามความเหมาะสม (TV-MA, TV-14, R) เพื่อเข้าใจฐานลูกค้าหลัก
 
-## 🎯 Objective
-To explore patterns and trends in Netflix content and present insights through an interactive dashboard.
+## 🚀 ผลการวิเคราะห์และประโยชน์ที่ได้รับ (Results & Insights)
+* **Key Insight:** ข้อมูลแสดงให้เห็นถึงการขยายตัวอย่างรวดเร็วของ TV Shows ในช่วงปีหลัง ๆ และความโดดเด่นของคอนเทนต์จากฝั่งเอเชียที่เริ่มมีสัดส่วนสูงขึ้นในตลาดโลก
+* **User Experience:** แดชบอร์ดถูกออกแบบให้ใช้งานง่าย (User-Friendly) ผู้ใช้สามารถเจาะลึกข้อมูล (Drill-down) รายประเทศหรือรายหมวดหมู่ได้เพียงการคลิกครั้งเดียว
+* **Application:** สามารถนำไปใช้เป็นต้นแบบในการสร้างระบบรายงานผล (Reporting System) สำหรับธุรกิจสตรีมมิ่ง หรือใช้เพื่อเปรียบเทียบขีดความสามารถในการแข่งขันของสตูดิโอต่าง ๆ
 
-## 📎 File
-- Netflix Data Visualization Dashboard.twbx
-
-## 📸 Dashboard Preview
-![Dashboard](dashboard.jpg)
+---
+**Developed by:** Ampika Pratumtong  
+**Contact:** Ampika.pratumtong47@gmail.com
