@@ -28,7 +28,6 @@ Dashboard ประกอบด้วย 2 หน้าหลักสำหร�
 - แนวโน้มการเพิ่มคอนเทนต์ในแต่ละช่วงเวลา
 - การเปรียบเทียบ Movie และ TV Show
 - การวิเคราะห์ระดับผู้ชม (Audience Level)
-- ภาพรวมการกระจายของคอนเทนต์
 
 <p align="center">
   <img src="screenshots/01-content-overview.png" width="850" alt="Netflix Content Overview Dashboard">
@@ -51,8 +50,6 @@ Dashboard ประกอบด้วย 2 หน้าหลักสำหร�
 
 ## Analysis Areas
 
-โปรเจกต์นี้ครอบคลุมการวิเคราะห์ข้อมูลในหลายมิติ ได้แก่
-
 - Content Type Analysis
 - Genre Analysis
 - Country Analysis
@@ -70,16 +67,16 @@ Dashboard ประกอบด้วย 2 หน้าหลักสำหร�
 - การจัดอันดับ Genre, Actor และ Director
 - การวิเคราะห์แนวโน้มของคอนเทนต์ตามช่วงเวลา
 - การนำเสนอข้อมูลผ่านกราฟหลายรูปแบบ
-- Dashboard แบบ Interactive สำหรับสำรวจข้อมูล
+- Interactive Dashboard สำหรับสำรวจข้อมูล
 
 ## Data Visualization
 
 เลือกใช้ Visualization ให้เหมาะสมกับข้อมูลแต่ละประเภท เช่น
 
-- Map — แสดงการกระจายของคอนเทนต์ตามประเทศ
-- Line Chart — วิเคราะห์แนวโน้มของข้อมูลตามช่วงเวลา
-- Bar Chart — เปรียบเทียบและจัดอันดับข้อมูล
-- Donut Chart — เปรียบเทียบสัดส่วน Movie และ TV Show
+- **Map** — แสดงการกระจายของคอนเทนต์ตามประเทศ
+- **Line Chart** — วิเคราะห์แนวโน้มของข้อมูลตามช่วงเวลา
+- **Bar Chart** — เปรียบเทียบและจัดอันดับข้อมูล
+- **Donut Chart** — เปรียบเทียบสัดส่วน Movie และ TV Show
 
 ## Tools & Technologies
 
@@ -111,3 +108,12 @@ netflix-content-analysis-tableau/
 └── screenshots/
     ├── 01-content-overview.png
     └── 02-content-analysis.png
+```
+
+## Project Type
+
+**Academic Project — Data Analysis & Interactive Dashboard Development**
+
+โปรเจกต์นี้พัฒนาขึ้นเพื่อประยุกต์ใช้ทักษะด้านการวิเคราะห์ข้อมูล การเลือกใช้ Data Visualization ที่เหมาะสม การออกแบบ Interactive Dashboard และการสื่อสารข้อมูลผ่าน Tableau
+
+> **Note:** โปรเจกต์นี้จัดทำขึ้นเพื่อการศึกษาและการนำเสนอผลงานใน Portfolio
