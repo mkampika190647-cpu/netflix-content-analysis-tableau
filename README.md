@@ -167,7 +167,7 @@ Visualization ที่ใช้ในโปรเจกต์ประกอบ
 
 - Data Visualization
 - Dashboard Design
-- Exploratory Data Analysis
+- Data Exploration
 - Data Grouping
 - Data Comparison
 - Geographic Visualization
